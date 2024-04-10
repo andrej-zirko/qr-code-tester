@@ -12,6 +12,7 @@
     "@rollup/plugin-commonjs": "^24.0.0",
     "@rollup/plugin-node-resolve": "^15.0.0",
     "@rollup/plugin-terser": "^0.4.0",
+    "@types/jsonwebtoken": "^9.0.6",
     "rollup": "^3.15.0",
     "rollup-plugin-css-only": "^4.3.0",
     "rollup-plugin-livereload": "^2.0.0",
@@ -19,7 +20,12 @@
     "svelte": "^3.55.0"
   },
   "dependencies": {
+    "@noble/ed25519": "^2.1.0",
+    "@panva/jose": "^1.9.3",
+    "base45-js": "^1.0.2",
+    "pako": "^2.1.0",
     "qrcode": "^1.5.3",
-    "sirv-cli": "^2.0.0"
+    "sirv-cli": "^2.0.0",
+    "universal-base64url": "^1.1.0"
   }
 }
